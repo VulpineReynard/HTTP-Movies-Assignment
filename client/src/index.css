@@ -75,3 +75,29 @@ body {
   color: red;
   text-align: center;
 }
+
+.update-movie-form {
+  padding: 20px;
+  box-shadow: 3px 3px 3px 0 grey;
+  background: white;
+  width: 400px;
+  height: 300px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.update-movie-form input {
+  margin: 10px auto;
+  margin-top: 0;
+  width: 80%;
+}
+.update-movie-form label {
+  margin: 0 auto;
+}
+
+.update-movie-form button {
+  width: 20%;
+  margin: 10px auto;
+}
